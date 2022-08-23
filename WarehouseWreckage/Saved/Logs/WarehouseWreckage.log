@@ -2829,3 +2829,195 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.23-17.40.03:248][907]LogFileHelpers: Saving map 'Main' took 0.057
 [2022.08.23-17.40.03:257][907]AssetCheck: New page: Asset Save: Main
 [2022.08.23-17.40.03:257][907]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.23-17.47.34:327][ 47]LogEditorTransaction: Undo Move Nodes
+[2022.08.23-17.48.13:750][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.08.23-17.48.13:799][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.23-17.48.13:828][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.08.23-17.48.13:849][680]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.23-17.48.13:850][680]LogSavePackage: Moving '../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Saved/Main84EB3CA74838AF9E38E769B157F0752E.tmp' to '../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Content/Main.umap'
+[2022.08.23-17.48.13:854][680]LogFileHelpers: No new changes to save!
+[2022.08.23-17.48.13:854][680]LogFileHelpers: Saving map 'Main' took 0.056
+[2022.08.23-17.48.13:864][680]AssetCheck: New page: Asset Save: Main
+[2022.08.23-17.48.13:864][680]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.23-17.48.15:626][892]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.23-17.48.15:629][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.08.23-17.48.15:629][892]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2022.08.23-17.48.15:684][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.08.23-17.48.15:685][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 56 ms (1 blueprints)
+[2022.08.23-17.48.15:685][892]PIE: New page: PIE session: Main (23 Aug 2022, 19:48:15)
+[2022.08.23-17.48.15:685][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.23-17.48.15:693][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007434s)
+[2022.08.23-17.48.15:693][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.007492s)
+[2022.08.23-17.48.15:693][892]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.23-17.48.15:693][892]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.23-17.48.15:694][892]LogAIModule: Creating AISystem for world Main
+[2022.08.23-17.48.15:694][892]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2022.08.23-17.48.15:724][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.08.23-17.48.15:724][892]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.23-17.48.15:724][892]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.23-17.48.15:724][892]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.23-17.48.15:725][892]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.23-17.48.15:725][892]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.23-17.48.15:725][892]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.23-17.48.15:727][892]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.23-17.48.15:741][892]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.08.23-17.48.15:741][892]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.23-17.48.15:741][892]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.23-17.48.15:741][892]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.23-17.48.15:742][892]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.08.23-17.48.15:742][892]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.08.23-17.48.15:743][892]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.08.23-17.48.15:743][892]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.08.23-17.48.15:743][892]LogInit: FAudioDevice initialized.
+[2022.08.23-17.48.15:743][892]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main'.
+[2022.08.23-17.48.15:801][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.23-17.48.15:801][892]LogLoad: Game class is 'GameModeBase'
+[2022.08.23-17.48.15:802][892]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.23-17.48.15:802][892]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.23-17.48.15:803][892]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.23-18.48.15
+[2022.08.23-17.48.15:803][892]LogWorld: Bringing up level for play took: 0.002053
+[2022.08.23-17.48.15:805][892]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.08.23-17.48.15:805][892]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.08.23-17.48.15:806][892]LogBlueprintUserMessages: [Main_C_9] Welcome to the game!
+[2022.08.23-17.48.15:806][892]LogBlueprintUserMessages: [Main_C_9] Have fun!
+[2022.08.23-17.48.15:806][892]LogBlueprintUserMessages: [Main_C_9] 20
+[2022.08.23-17.48.15:806][892]PIE: Server logged in
+[2022.08.23-17.48.15:807][892]PIE: Play in editor total start time 0.178 seconds.
+[2022.08.23-17.48.15:822][892]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.08.23-17.48.16:797][970]LogBlueprintUserMessages: [Main_C_9] 19
+[2022.08.23-17.48.16:934][985]LogBlueprintUserMessages: [Main_C_9] 18
+[2022.08.23-17.48.17:066][999]LogBlueprintUserMessages: [Main_C_9] 17
+[2022.08.23-17.48.17:214][ 15]LogBlueprintUserMessages: [Main_C_9] 16
+[2022.08.23-17.48.17:334][ 28]LogBlueprintUserMessages: [Main_C_9] 15
+[2022.08.23-17.48.17:463][ 42]LogBlueprintUserMessages: [Main_C_9] 14
+[2022.08.23-17.48.17:595][ 56]LogBlueprintUserMessages: [Main_C_9] 13
+[2022.08.23-17.48.17:743][ 72]LogBlueprintUserMessages: [Main_C_9] 12
+[2022.08.23-17.48.17:893][ 88]LogBlueprintUserMessages: [Main_C_9] 11
+[2022.08.23-17.48.18:034][103]LogBlueprintUserMessages: [Main_C_9] 10
+[2022.08.23-17.48.18:162][117]LogBlueprintUserMessages: [Main_C_9] 9
+[2022.08.23-17.48.18:285][130]LogBlueprintUserMessages: [Main_C_9] 8
+[2022.08.23-17.48.18:422][145]LogBlueprintUserMessages: [Main_C_9] 7
+[2022.08.23-17.48.18:551][159]LogBlueprintUserMessages: [Main_C_9] 6
+[2022.08.23-17.48.18:699][175]LogBlueprintUserMessages: [Main_C_9] 5
+[2022.08.23-17.48.18:828][189]LogBlueprintUserMessages: [Main_C_9] 4
+[2022.08.23-17.48.19:112][220]LogBlueprintUserMessages: [Main_C_9] 3
+[2022.08.23-17.48.19:295][240]LogBlueprintUserMessages: [Main_C_9] 2
+[2022.08.23-17.48.19:465][258]LogBlueprintUserMessages: [Main_C_9] 1
+[2022.08.23-17.48.19:733][287]LogBlueprintUserMessages: [Main_C_9] 0
+[2022.08.23-17.48.19:873][302]LogBlueprintUserMessages: [Main_C_9] Out of ammo!
+[2022.08.23-17.48.24:894][838]LogNet: Browse: /Game/Main
+[2022.08.23-17.48.24:905][838]LogLoad: LoadMap: /Game/Main
+[2022.08.23-17.48.24:905][838]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.23-17.48.24:905][838]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.23-17.48.24:906][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.23-17.48.24:972][838]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.23-17.48.24:974][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.08.23-17.48.25:019][838]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.23-17.48.25:027][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007691s)
+[2022.08.23-17.48.25:027][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.007795s)
+[2022.08.23-17.48.25:027][838]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main'.
+[2022.08.23-17.48.25:027][838]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.23-17.48.25:027][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.23-17.48.25:027][838]LogAIModule: Creating AISystem for world Main
+[2022.08.23-17.48.25:028][838]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2022.08.23-17.48.25:028][838]LogLoad: Game class is 'GameModeBase'
+[2022.08.23-17.48.25:028][838]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.23-17.48.25:028][838]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.23-17.48.25:033][838]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.23-18.48.25
+[2022.08.23-17.48.25:033][838]LogWorld: Bringing up level for play took: 0.004984
+[2022.08.23-17.48.25:033][838]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.08.23-17.48.25:034][838]LogBlueprintUserMessages: [Main_C_9] Welcome to the game!
+[2022.08.23-17.48.25:034][838]LogBlueprintUserMessages: [Main_C_9] Have fun!
+[2022.08.23-17.48.25:034][838]LogBlueprintUserMessages: [Main_C_9] 20
+[2022.08.23-17.48.25:051][838]LogLoad: Took 0.145589 seconds to LoadMap(/Game/UEDPIE_0_Main)
+[2022.08.23-17.48.26:313][972]LogBlueprintUserMessages: [Main_C_9] 19
+[2022.08.23-17.48.26:480][990]LogBlueprintUserMessages: [Main_C_9] 18
+[2022.08.23-17.48.26:627][  6]LogBlueprintUserMessages: [Main_C_9] 17
+[2022.08.23-17.48.26:803][ 25]LogBlueprintUserMessages: [Main_C_9] 16
+[2022.08.23-17.48.26:951][ 41]LogBlueprintUserMessages: [Main_C_9] 15
+[2022.08.23-17.48.27:111][ 58]LogBlueprintUserMessages: [Main_C_9] 14
+[2022.08.23-17.48.27:270][ 75]LogBlueprintUserMessages: [Main_C_9] 13
+[2022.08.23-17.48.27:418][ 91]LogBlueprintUserMessages: [Main_C_9] 12
+[2022.08.23-17.48.27:577][108]LogBlueprintUserMessages: [Main_C_9] 11
+[2022.08.23-17.48.27:734][125]LogBlueprintUserMessages: [Main_C_9] 10
+[2022.08.23-17.48.27:897][142]LogBlueprintUserMessages: [Main_C_9] 9
+[2022.08.23-17.48.28:057][159]LogBlueprintUserMessages: [Main_C_9] 8
+[2022.08.23-17.48.28:188][173]LogBlueprintUserMessages: [Main_C_9] 7
+[2022.08.23-17.48.28:366][192]LogBlueprintUserMessages: [Main_C_9] 6
+[2022.08.23-17.48.28:516][208]LogBlueprintUserMessages: [Main_C_9] 5
+[2022.08.23-17.48.28:683][226]LogBlueprintUserMessages: [Main_C_9] 4
+[2022.08.23-17.48.28:852][244]LogBlueprintUserMessages: [Main_C_9] 3
+[2022.08.23-17.48.29:002][260]LogBlueprintUserMessages: [Main_C_9] 2
+[2022.08.23-17.48.29:178][279]LogBlueprintUserMessages: [Main_C_9] 1
+[2022.08.23-17.48.29:345][297]LogBlueprintUserMessages: [Main_C_9] 0
+[2022.08.23-17.48.29:515][315]LogBlueprintUserMessages: [Main_C_9] Out of ammo!
+[2022.08.23-17.48.29:674][332]LogBlueprintUserMessages: [Main_C_9] Out of ammo!
+[2022.08.23-17.48.34:513][855]LogNet: Browse: /Game/Main
+[2022.08.23-17.48.34:514][855]LogLoad: LoadMap: /Game/Main
+[2022.08.23-17.48.34:514][855]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.23-17.48.34:514][855]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.23-17.48.34:514][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.23-17.48.34:572][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.23-17.48.34:574][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.08.23-17.48.34:575][855]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.23-17.48.34:583][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007253s)
+[2022.08.23-17.48.34:583][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.007315s)
+[2022.08.23-17.48.34:583][855]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main'.
+[2022.08.23-17.48.34:583][855]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.23-17.48.34:583][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.23-17.48.34:583][855]LogAIModule: Creating AISystem for world Main
+[2022.08.23-17.48.34:583][855]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2022.08.23-17.48.34:583][855]LogLoad: Game class is 'GameModeBase'
+[2022.08.23-17.48.34:584][855]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.23-17.48.34:584][855]LogChaos: Warning: Attempting to release an actor with a null handle
+[2022.08.23-17.48.34:584][855]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.23-18.48.34
+[2022.08.23-17.48.34:585][855]LogWorld: Bringing up level for play took: 0.001257
+[2022.08.23-17.48.34:585][855]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.08.23-17.48.34:585][855]LogBlueprintUserMessages: [Main_C_9] Welcome to the game!
+[2022.08.23-17.48.34:585][855]LogBlueprintUserMessages: [Main_C_9] Have fun!
+[2022.08.23-17.48.34:585][855]LogBlueprintUserMessages: [Main_C_9] 20
+[2022.08.23-17.48.34:585][855]LogLoad: Took 0.071623 seconds to LoadMap(/Game/UEDPIE_0_Main)
+[2022.08.23-17.48.35:543][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.23-17.48.35:543][952]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.23-17.48.35:544][952]LogSlate: Window 'WarehouseWreckage Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.08.23-17.48.35:547][952]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.23-17.48.35:547][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.23-17.48.35:556][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.23-17.48.35:560][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.23-17.48.35:589][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.08.23-17.48.35:590][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.08.23-17.48.35:595][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.08.23-17.48.35:625][953]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.08.23-17.48.53:025][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2022.08.23-17.48.53:025][ 19]LogBlueprint: Error: [AssetLog]  (no disk path found): [Compiler] Delay  cannot be placed in function graph
+[2022.08.23-17.48.53:025][ 19]BlueprintLog: New page: Collapse to Function
+[2022.08.23-17.48.53:025][ 19]BlueprintLog: Error: Delay  cannot be placed in function graph
+[2022.08.23-17.49.00:863][891]LogSlate: Window 'Message Log' being destroyed
+[2022.08.23-17.49.00:867][891]LogSlate: Window 'Message Log' being destroyed
+[2022.08.23-17.49.03:822][228]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2022.08.23-17.49.03:822][228]LogBlueprint: Error: [AssetLog]  (no disk path found): [Compiler] Delay  cannot be placed in function graph
+[2022.08.23-17.49.03:822][228]BlueprintLog: New page: Collapse to Function
+[2022.08.23-17.49.03:822][228]BlueprintLog: Error: Delay  cannot be placed in function graph
+[2022.08.23-17.49.39:537][771]BlueprintLog: New page: Collapse to Function
+[2022.08.23-17.49.57:551][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.23-17.49.57:581][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.08.23-17.49.57:604][911]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.23-17.49.57:604][911]LogSavePackage: Moving '../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Saved/Main2C3608F04A12B54E7AE8F487E6CB7E6A.tmp' to '../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Content/Main.umap'
+[2022.08.23-17.49.57:609][911]LogFileHelpers: No new changes to save!
+[2022.08.23-17.49.57:609][911]LogFileHelpers: Saving map 'Main' took 0.058
+[2022.08.23-17.49.57:617][911]AssetCheck: New page: Asset Save: Main
+[2022.08.23-17.49.57:617][911]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.23-17.50.21:135][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.23-17.50.21:166][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.08.23-17.50.21:188][722]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.23-17.50.21:188][722]LogSavePackage: Moving '../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Saved/MainA716C0FC46CAAA26A0543BA9118B56AA.tmp' to '../../../../../Programming/Unreal/WarehouseWreckage/WarehouseWreckage/Content/Main.umap'
+[2022.08.23-17.50.21:193][722]LogFileHelpers: No new changes to save!
+[2022.08.23-17.50.21:193][722]LogFileHelpers: Saving map 'Main' took 0.058
+[2022.08.23-17.50.21:202][722]AssetCheck: New page: Asset Save: Main
+[2022.08.23-17.50.21:202][722]LogContentValidation: Display: Validating World /Game/Main.Main
